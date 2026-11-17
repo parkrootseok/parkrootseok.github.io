@@ -35,7 +35,6 @@ h1 { font-size: 30px; line-height: 1.35; margin: 0; font-weight: 700; text-wrap:
 section { display: flex; flex-direction: column; gap: 14px; }
 .sec-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
 h2 { font-size: 13px; font-weight: 700; color: var(--ink-2); letter-spacing: 0.04em; margin: 0; }
-.sec-note { font-size: 13px; color: var(--gray); }
 
 /* 대표 사례 카드: 결과 수치가 먼저 보이게 */
 .cases { display: grid; grid-template-columns: 1fr; gap: 16px; }
@@ -85,7 +84,6 @@ footer { margin-top: auto; font-size: 12.5px; color: var(--gray); }
   <section aria-labelledby="cases-title">
     <div class="sec-head">
       <h2 id="cases-title">대표 사례</h2>
-      <span class="sec-note">무엇이 문제였고, 무엇을 골랐고, 얼마나 나아졌는지</span>
     </div>
     <div class="cases"><!-- 사례 상세 글(쓰임: 포트폴리오)을 올릴 때 맨 앞에 하나씩 더한다. 수치는 검증된 성과 카드 값만 쓴다. 형식:
       <a class="case" href="posts/{주소용 이름}/">
